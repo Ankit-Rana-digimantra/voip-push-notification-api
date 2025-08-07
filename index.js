@@ -1,6 +1,6 @@
 const functions = require("firebase-functions");
 const admin = require("firebase-admin");
-const apn = require("apn");
+const apn = require('@parse/node-apn');
 const fs = require("fs");
 const path = require("path");
 
